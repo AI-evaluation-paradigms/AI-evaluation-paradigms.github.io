@@ -175,7 +175,7 @@
     <div class="hero-body">
         <div class="container is-max-desktop">
             <div class="content has-text-justified">
-            <p class="subtitle has-text-justified is-4">
+                <p class="subtitle has-text-justified is-4">
                     We survey 125+ representative studies and identify six main <em>paradigms</em> of AI evaluation,
                     defined
                     by specific objectives, methodologies, and assumptions.
@@ -184,157 +184,174 @@
                     questions and approaches each paradigm tackles.
                     This gives researchers appreciation of the extent of AI evaluation and allows them to build bridges
                     between insular research trajectories and identify gaps.
-            </p>
-                <div class="table-container">
-                    <table class="table is-bordered is-striped is-narrow is-hoverable"
-                           style="margin: 0 auto; font-size: 0.9rem;">
-                        <thead>
-                        <tr>
-                            <th style="min-width: 120px;">Dimension</th>
-                            <th style="min-width: 90px;">Benchmarking</th>
-                            <th style="min-width: 90px;">Evals</th>
-                            <th style="min-width: 90px;">Construct-Oriented</th>
-                            <th style="min-width: 90px;">Exploratory</th>
-                            <th style="min-width: 90px;">Real-World Impact</th>
-                            <th style="min-width: 90px;">TEVV</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td><em>Archetype</em></td>
-                            <td><a href="https://ieeexplore.ieee.org/document/5206848">Deng et al. (2009)</a></td>
-                            <td><a href="https://arxiv.org/abs/2209.07858">Ganguli et al. (2022)</a></td>
-                            <td><a href="https://arxiv.org/abs/2405.13622">Guinet et al. (2024)</a></td>
-                            <td><a href="https://openreview.net/forum?id=GPKTIktA0k">Berglund et al. (2024)</a></td>
-                            <td><a href="https://www.pnas.org/doi/10.1073/pnas.2318124121">Collins et al. (2024)</a>
-                            </td>
-                            <td><a href="https://www.ijcai.org/proceedings/2023/637">Yang et al. (2023)</a></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Indicators</strong></td>
-                            <td>Performance</td>
-                            <td><strong>Safety</strong>/Fairness</td>
-                            <td>-</td>
-                            <td>Performance/Behaviour</td>
-                            <td>Cost/Fairness/<strong>Performance</strong></td>
-                            <td>Safety/robustness and reliability</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Dist. summ.</strong></td>
-                            <td><strong>Aggregate</strong></td>
-                            <td>Extreme/Aggregate</td>
-                            <td><strong>Functional</strong></td>
-                            <td>Aggregate/Manual Inspection</td>
-                            <td><strong>Aggregate</strong></td>
-                            <td>Extreme</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Subject</strong></td>
-                            <td>-</td>
-                            <td><strong>System</strong></td>
-                            <td><strong>System</strong></td>
-                            <td>System</td>
-                            <td><strong>System</strong></td>
-                            <td><strong>System</strong></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Measurement</strong></td>
-                            <td><strong>Observed</strong></td>
-                            <td><strong>Observed</strong></td>
-                            <td><strong>Latent</strong></td>
-                            <td><strong>Observed</strong></td>
-                            <td>Observed</td>
-                            <td>Observed</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Task origin</strong></td>
-                            <td>-</td>
-                            <td><strong>Design</strong></td>
-                            <td>Design</td>
-                            <td>Design</td>
-                            <td>-</td>
-                            <td>Design/Operation</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Protocol</strong></td>
-                            <td>Fixed</td>
-                            <td>Interactive</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Reference</strong></td>
-                            <td>Objective</td>
-                            <td>Subjective</td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td>Subjective/Rubric</td>
-                            <td>Objective</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Task Mode</strong></td>
-                            <td>-</td>
-                            <td><strong>Generation</strong></td>
-                            <td>-</td>
-                            <td>-</td>
-                            <td><strong>Generation</strong></td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Evaluators</strong></td>
-                            <td>Researchers</td>
-                            <td>Researchers, Deployers</td>
-                            <td><strong>Researchers</strong></td>
-                            <td>Researchers</td>
-                            <td>-</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Motivation</strong></td>
-                            <td>Comparison</td>
-                            <td>Assurance/Understanding</td>
-                            <td>Understanding</td>
-                            <td><strong>Understanding</strong></td>
-                            <td><strong>Comparison</strong></td>
-                            <td><strong>Assurance</strong></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Disciplines</strong></td>
-                            <td>-</td>
-                            <td>Security, Bio</td>
-                            <td>Cognitive Science</td>
-                            <td>-</td>
-                            <td>Social Sciences</td>
-                            <td>Control Theory</td>
-                        </tr>
-                        <tr>
-                            <td><em>Raw Number</em></td>
-                            <td>72</td>
-                            <td>13</td>
-                            <td>15</td>
-                            <td>18</td>
-                            <td>4</td>
-                            <td>10</td>
-                        </tr>
-                        <tr>
-                            <td><em>Percentage</em></td>
-                            <td>57%</td>
-                            <td>10%</td>
-                            <td>12%</td>
-                            <td>14%</td>
-                            <td>3.2%</td>
-                            <td>7.9%</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <p style="margin-top: 1rem;">
-                    The values of different dimensions that mostly characterise each paradigm are shown. Bolded entries
-                    indicate values that were present across the vast majority of the considered papers within that
-                    paradigm. Empty entries indicate that a dimension was not informative for that paradigm.
                 </p>
+            </div>
+            <div id="results-carousel" class="carousel results-carousel">
+                <div class="item">
+                    <!-- Your image here -->
+                    <img src="static/images/trieste.png" alt="MY ALT TEXT"/>
+                    <h2 class="subtitle has-text-centered">
+                        An overview of the 6 paradigms we identify.
+                    </h2>
+                </div>
+                <div class="item">
+                    <!-- Your image here -->
+                    <div class="table-container">
+                        <table class="table is-bordered is-striped is-narrow is-hoverable"
+                               style="margin: 0 auto; font-size: 0.9rem;">
+                            <thead>
+                            <tr>
+                                <th style="min-width: 120px;">Dimension</th>
+                                <th style="min-width: 90px;">Benchmarking</th>
+                                <th style="min-width: 90px;">Evals</th>
+                                <th style="min-width: 90px;">Construct-Oriented</th>
+                                <th style="min-width: 90px;">Exploratory</th>
+                                <th style="min-width: 90px;">Real-World Impact</th>
+                                <th style="min-width: 90px;">TEVV</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td><em>Archetype</em></td>
+                                <td><a href="https://ieeexplore.ieee.org/document/5206848">Deng et al. (2009)</a>
+                                </td>
+                                <td><a href="https://arxiv.org/abs/2209.07858">Ganguli et al. (2022)</a></td>
+                                <td><a href="https://arxiv.org/abs/2405.13622">Guinet et al. (2024)</a></td>
+                                <td><a href="https://openreview.net/forum?id=GPKTIktA0k">Berglund et al. (2024)</a>
+                                </td>
+                                <td><a href="https://www.pnas.org/doi/10.1073/pnas.2318124121">Collins et al.
+                                    (2024)</a>
+                                </td>
+                                <td><a href="https://www.ijcai.org/proceedings/2023/637">Yang et al. (2023)</a></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Indicators</strong></td>
+                                <td>Performance</td>
+                                <td><strong>Safety</strong>/Fairness</td>
+                                <td>-</td>
+                                <td>Performance/Behaviour</td>
+                                <td>Cost/Fairness/<strong>Performance</strong></td>
+                                <td>Safety/robustness and reliability</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Dist. summ.</strong></td>
+                                <td><strong>Aggregate</strong></td>
+                                <td>Extreme/Aggregate</td>
+                                <td><strong>Functional</strong></td>
+                                <td>Aggregate/Manual Inspection</td>
+                                <td><strong>Aggregate</strong></td>
+                                <td>Extreme</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Subject</strong></td>
+                                <td>-</td>
+                                <td><strong>System</strong></td>
+                                <td><strong>System</strong></td>
+                                <td>System</td>
+                                <td><strong>System</strong></td>
+                                <td><strong>System</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Measurement</strong></td>
+                                <td><strong>Observed</strong></td>
+                                <td><strong>Observed</strong></td>
+                                <td><strong>Latent</strong></td>
+                                <td><strong>Observed</strong></td>
+                                <td>Observed</td>
+                                <td>Observed</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Task origin</strong></td>
+                                <td>-</td>
+                                <td><strong>Design</strong></td>
+                                <td>Design</td>
+                                <td>Design</td>
+                                <td>-</td>
+                                <td>Design/Operation</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Protocol</strong></td>
+                                <td>Fixed</td>
+                                <td>Interactive</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Reference</strong></td>
+                                <td>Objective</td>
+                                <td>Subjective</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Subjective/Rubric</td>
+                                <td>Objective</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Task Mode</strong></td>
+                                <td>-</td>
+                                <td><strong>Generation</strong></td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td><strong>Generation</strong></td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Evaluators</strong></td>
+                                <td>Researchers</td>
+                                <td>Researchers, Deployers</td>
+                                <td><strong>Researchers</strong></td>
+                                <td>Researchers</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Motivation</strong></td>
+                                <td>Comparison</td>
+                                <td>Assurance/Understanding</td>
+                                <td>Understanding</td>
+                                <td><strong>Understanding</strong></td>
+                                <td><strong>Comparison</strong></td>
+                                <td><strong>Assurance</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Disciplines</strong></td>
+                                <td>-</td>
+                                <td>Security, Bio</td>
+                                <td>Cognitive Science</td>
+                                <td>-</td>
+                                <td>Social Sciences</td>
+                                <td>Control Theory</td>
+                            </tr>
+                            <tr>
+                                <td><em>Raw Number</em></td>
+                                <td>72</td>
+                                <td>13</td>
+                                <td>15</td>
+                                <td>18</td>
+                                <td>4</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td><em>Percentage</em></td>
+                                <td>57%</td>
+                                <td>10%</td>
+                                <td>12%</td>
+                                <td>14%</td>
+                                <td>3.2%</td>
+                                <td>7.9%</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 class="subtitle is-6">
+                        The values of different dimensions that mostly characterise each paradigm are shown. Bolded
+                        entries
+                        indicate values that were present across the vast majority of the considered papers within
+                        that
+                        paradigm. Empty entries indicate that a dimension was not informative for that paradigm.
+                    </h2>
+                </div>
             </div>
         </div>
     </div>
@@ -398,7 +415,8 @@
             <h1 class="title is-3 has-text-centered">Feature visualization</h1>
             <div class="content has-text-justified">
                 <p>
-                    The graph shows a UMAP projection of the Jaccard distance matrix, generated using the dimensions from our framework.
+                    The graph shows a UMAP projection of the Jaccard distance matrix, generated using the dimensions
+                    from our framework.
                     Each point represents a surveyed paper, whose colour indicates the paradigms it belongs to.
                     We find clusters of papers corresponding to different paradigms.
                 </p>
@@ -411,7 +429,6 @@
         </div>
     </div>
 </section>
-
 
 
 <!--BibTex citation -->
